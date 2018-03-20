@@ -1,0 +1,39 @@
+# mac
+.DS_STORE
+
+# wordpress
+wp-*.php
+xmlrpc.php
+index.php
+license.txt
+readme.html
+
+wp-admin/
+wp-includes/
+wp-content/uploads/
+wp-content/plugins/
+wp-content/themes/twenty*/
+wp-content/themes/martinis/node_modules
+wp-content/themes/martinis/yarn.lock
+
+#except
+!wp-content/plugins/<premium-plugin>
+!wp-content/plugins/<custom-plugin>
+
+# packages files
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+
+#node
+node_modules/
+
+# general
+*.db
+*.cache
+*.log
